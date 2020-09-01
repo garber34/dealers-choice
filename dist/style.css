@@ -1,0 +1,42 @@
+*{
+  margin:0
+}
+header{
+  background-color: aqua;
+  text-align:center;
+}
+
+h1{
+  margin:0 .5rem
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+}
+ .flex>div{
+
+   flex:1;
+ }
+
+ .flex>div:not(.mapContainer){
+  margin-left:1rem;
+  min-width: 25%;
+ }
+
+ .mapContainer{
+   flex:2;
+   overflow: hidden;
+ }
+
+ .sideBar{
+   max-width: fit-content;
+ }
+
+ ol{
+   overflow: hidden;
+   overflow-y: scroll;
+ }
+
+ button{
+   margin: .5rem;
+ }
